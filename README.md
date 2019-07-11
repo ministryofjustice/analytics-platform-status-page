@@ -2,8 +2,6 @@
 This is the repository containing the Analytical Platform status
 page.
 
-The static website is under the `/analytical-platform` directory.
-
 The static website is generated using [Hugo](https://gohugo.io/)
 a popular static website generator.
 
@@ -26,11 +24,11 @@ can follow the [installation instructions on the Hugo website].
 > can recognize the inputted data and generate your status page
 > appropriately.
 
-To create a new incident copy the [`content/issues/YYYY-MM-DD-template.md`](/analytical-platform/content/issues/YYYY-MM-DD-template.md) file:
+To create a new incident copy the [`content/issues/YYYY-MM-DD-template.md`](/content/issues/YYYY-MM-DD-template.md) file:
 
 ```bash
 # remember to tweak the destination filename
-$ cp analytical-platform/content/issues/YYYY-MM-DD-template.md analytical-platform/content/issues/YYYY-MM-DD-incident-slug.md
+$ cp content/issues/YYYY-MM-DD-template.md content/issues/YYYY-MM-DD-incident-slug.md
 ```
 
 Then edit this newly created file updating the following fields
@@ -46,7 +44,7 @@ as necessary:
 - `published`, boolean which determine if the incident page is published
 
 The details of the incident will go under `---` (there are some
-example issues under [`content/issues/`](/analytical-platform/content/issues/)).
+example issues under [`content/issues/`](/content/issues/)).
 
 Note the use of the `{{< track "2019-01-01 15:56:00" >}}` shortcode which
 will be displayed nicely in the rendered page - just remember to include
@@ -62,8 +60,7 @@ See: [cState documentation on creating a new incident](https://github.com/cstate
 You can see how the Status Page will look like by running the Hugo
 server locally.
 
-From the [`/analytical-platform/`](/analytical-platform/) directory
-run the following command:
+From the [toplevel directory](/) run the following command:
 
 ```bash
 $ hugo server
@@ -91,7 +88,7 @@ At the moment we only have the following Systems:
 - `Kubernetes Cluster`
 
 We may want to add more or tweak the description. This can be done
-updating the `params.systems` configuration in the [`/analytical-platform/config.yml`](/analytical-platform/config.yml) file if necessary.
+updating the `params.systems` configuration in the [`/config.yml`](/config.yml) file if necessary.
 
 **NOTE**: When using these in the `affected` field of an issue be sure
 that the case is the same.
@@ -103,7 +100,7 @@ Custom Tabs are shown in the page and we use them to link to the status pages of
 - GitHub
 
 Again, if necessary this list can be changed by changing the `customTabs`
-configuration in the [`/analytical-platform/config.yml`](/analytical-platform/config.yml) file.
+configuration in the [`/config.yml`](/config.yml) file.
 
 
 ## cstate documentation
