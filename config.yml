@@ -35,6 +35,10 @@
 # If you have problems, create an issue on GitHub:
 # https://github.com/cstate/cstate/issues
 
+# For GitHub Pages: You cannot currently configure GitHub
+# Pages to publish from another directory on master
+publishDir: "docs"
+
 ############################################################
 # +------------------------------------------------------+ #
 # |                  Basic metadata                      | #
@@ -90,7 +94,10 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://ministryofjustice.github.io/analytics-platform-status-page
+
+# Be sure relative URLs are not broken on GitHub pages
+relativeURLs: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -159,7 +166,7 @@ params:
   # Format:
   customTabs:
    - name: Auth0 Status
-     link: http://status.auth0.com/
+     link: https://status.auth0.com/
    - name: AWS Status
      link: https://status.aws.amazon.com/
    - name: GitHub Status

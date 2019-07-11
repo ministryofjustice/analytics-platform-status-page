@@ -1,0 +1,39 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://ministryofjustice.github.io/analytics-platform-status-page"/>
+    <title>Affected on Analytical Platform Status</title>
+    <link>https://ministryofjustice.github.io/analytics-platform-status-page/affected/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2019-07-11T11:53:00+00:00</lastBuildDate>
+    <updated>2019-07-11T11:53:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://ministryofjustice.github.io/analytics-platform-status-page/affected/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Control Panel</title>
+        <link>https://ministryofjustice.github.io/analytics-platform-status-page/affected/control-panel/</link>
+        <pubDate>Thu, 11 Jul 2019 11:53:00 +0000</pubDate>
+        <guid>https://ministryofjustice.github.io/analytics-platform-status-page/affected/control-panel/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+      <item>
+        <title>Kubernetes Cluster</title>
+        <link>https://ministryofjustice.github.io/analytics-platform-status-page/affected/kubernetes-cluster/</link>
+        <pubDate>Thu, 11 Jul 2019 11:53:00 +0000</pubDate>
+        <guid>https://ministryofjustice.github.io/analytics-platform-status-page/affected/kubernetes-cluster/</guid>
+        <category></category>
+        <description></description>
+        <content type="html"></content>
+      </item>
+    
+  </channel>
+</rss>

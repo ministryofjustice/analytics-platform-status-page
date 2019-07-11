@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/affected/</loc>
+    <lastmod>2019-07-11T11:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/</loc>
+    <lastmod>2019-07-11T11:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/affected/control-panel/</loc>
+    <lastmod>2019-07-11T11:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/issues/</loc>
+    <lastmod>2019-07-11T11:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/affected/kubernetes-cluster/</loc>
+    <lastmod>2019-07-11T11:53:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/issues/2019-07-11-test-incident/</loc>
+    <lastmod>2019-07-11T11:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/pages/example-page/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ministryofjustice.github.io/analytics-platform-status-page/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

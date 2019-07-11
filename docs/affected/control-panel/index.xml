@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://ministryofjustice.github.io/analytics-platform-status-page"/>
+    <title>Control Panel on Analytical Platform Status</title>
+    <link>https://ministryofjustice.github.io/analytics-platform-status-page/affected/control-panel/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2019-07-11T11:53:00+00:00</lastBuildDate>
+    <updated>2019-07-11T11:53:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://ministryofjustice.github.io/analytics-platform-status-page/affected/control-panel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Test Incident</title>
+        <link>https://ministryofjustice.github.io/analytics-platform-status-page/issues/2019-07-11-test-incident/</link>
+        <pubDate>Thu, 11 Jul 2019 11:53:00 +0000</pubDate>
+        <guid>https://ministryofjustice.github.io/analytics-platform-status-page/issues/2019-07-11-test-incident/</guid>
+        <category>2019-07-11 16:35:00</category>
+        <description>Resolved - We believe GitHub URLs are now working as expected. (16:35 — Jul 11) (04:40 — May 25) -- Investigating - This is just a test incident. DON&amp;rsquo;T PANIC. (11:53 — Jul 11) </description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Resolved&lt;/em&gt; -
+We believe GitHub URLs are now working as expected. 
+  &lt;span class=&#34;faded&#34;&gt;(16:35 — Jul 11)&lt;/span&gt;
+
+&lt;/p&gt;
+
+&lt;!-- *Monitoring* - We believe the connectivity issues are being caused by an isolated ISP issue. We&#39;ve had reports that swapping to Google DNS servers (see here; https://developers.google.com/speed/public-dns/docs/using) resolves the problem for users. 
+  &lt;span class=&#34;faded&#34;&gt;(04:40 — May 25)&lt;/span&gt;
+
+ --&gt;
+
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - This is just a test incident. DON&amp;rsquo;T PANIC. 
+  &lt;span class=&#34;faded&#34;&gt;(11:53 — Jul 11)&lt;/span&gt;
+
+&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

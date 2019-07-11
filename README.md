@@ -71,7 +71,15 @@ browser (or at whatever URL/port Hugo will run at).
 
 
 ### Publish the Status Page
-**TODO**
+The Status Page is hosted on GitHub Pages at https://ministryofjustice.github.io/analytics-platform-status-page/
+
+The repository is configured to serve files from `/docs`.
+That's why `/config.yml` contains the `publishDir: "docs"` option.
+
+To update the Status Page
+1. rebuild the static website by runnng `hugo`
+2. commit the changes and push to the `master` branch
+3. this could take a brief period of time to update the Status Page.
 
 
 ## The "issue" archetype
