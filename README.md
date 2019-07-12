@@ -19,16 +19,25 @@ can follow the [installation instructions on the Hugo website].
 ## Creating a new incident
 
 ### Creating the incident page
-> Incidents are simply Markdown files (like test-issue.md) that are
+> Incidents are simply Markdown files that are
 > under content/issues/. They are formatted in such a way that cState
 > can recognize the inputted data and generate your status page
 > appropriately.
 
-To create a new incident copy the [`content/issues/YYYY-MM-DD-template.md`](/content/issues/YYYY-MM-DD-template.md) file:
+You can easily create a new issue by running the `./new-issue.sh` script:
 
 ```bash
-# remember to tweak the destination filename
-$ cp content/issues/YYYY-MM-DD-template.md content/issues/YYYY-MM-DD-incident-slug.md
+$ ./new-issue.sh Upgrade Kubernetes cluster to v42
+
+A new issue is been created at 'content/issues/2019-07-12-upgrade-kubernetes-cluster-to-v42.md'
+
+****  IMPORTANT  ****
+- edit this file to add the details about the issue
+- be sure the list of affected systems is correct
+- be sure the severity is correct
+- use the '$ hugo server' command to preview the Status Page
+- use the '$ hugo' command to re-build the Status Page files
+- add, commit and push the files in '/docs' once you're happy with the output
 ```
 
 Then edit this newly created file updating the following fields
@@ -50,11 +59,8 @@ Note the use of the `{{< track "2019-01-01 15:56:00" >}}` shortcode which
 will be displayed nicely in the rendered page - just remember to include
 the seconds.
 
-Remember to change `published: true` when you're happy with
-the incident content.
 
-
-See: [cState documentation on creating a new incident](https://github.com/cstate/cstate/wiki/Usage#creating-incidents-method-1).
+Also see: [cState documentation on creating a new incident](https://github.com/cstate/cstate/wiki/Usage#creating-incidents-method-1).
 
 ### Testing Status Page locally
 You can see how the Status Page will look like by running the Hugo
