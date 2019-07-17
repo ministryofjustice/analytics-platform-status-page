@@ -15,6 +15,16 @@ can follow the [installation instructions on the Hugo website].
 
 [installation instructions on the Hugo website]: https://gohugo.io/getting-started/installing/
 
+## cState installation
+cState is the theme used by the Status Page.
+The first time you clone the repository locally you'll have to pull the
+git submodule by running:
+
+```bash
+$ git pull --recurse-submodules
+```
+
+This needs to be done only the first time.
 
 ## Creating a new incident
 
